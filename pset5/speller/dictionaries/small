@@ -1,0 +1,24 @@
+cat
+caterpillar
+
+
+    unsigned long hash_val = 5381;
+    int c;
+
+    while((c = *word++))
+        hash_val = ((hash_val << 5) + hash_val) + c; /* hash * 33 + c */
+    
+    return (hash_val % N);
+    
+    
+    
+    
+    
+    
+    int sum = 0;
+    for(int i = 0; i < strlen(word); i++){
+        sum += tolower(word[i]);
+    }
+    return(sum % N);
+    
+    
