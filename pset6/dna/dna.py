@@ -55,6 +55,3 @@ for name in people:
         
 print("No match")
 exit(2)
-
-#make dict of STR counts in txt
-#compare txt dict and indiv dicts
